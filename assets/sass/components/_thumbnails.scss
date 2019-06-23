@@ -16,3 +16,28 @@ vertical-align: middle;
 }
 
 }
+
+
+
+@media (max-width:375px){
+  .thumbnails {
+    width: 170px;
+  height: 170px;
+  position:absolute;
+  overflow: hidden;
+  border-radius: 50%;
+  border:1px solid $light-gray;
+  vertical-align: middle;
+  margin: 2rem;
+
+
+   .photo {
+    display: inline;
+
+    height: 102%;
+    width: auto;
+
+  }
+
+  }
+}

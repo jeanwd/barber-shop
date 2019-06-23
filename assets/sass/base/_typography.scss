@@ -20,3 +20,14 @@ a{
   font-family:$roboto;
   font-weight:$regular;
 }
+
+
+
+@media (max-width:375px){
+  h1{
+    font-family: $playfair-display;
+    font-weight: $black-italic;
+    font-size: $x-large;
+  }
+
+}

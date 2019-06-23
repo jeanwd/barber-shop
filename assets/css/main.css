@@ -9684,6 +9684,13 @@ a {
   font-weight: 400;
 }
 
+@media (max-width: 375px) {
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 30px;
+  }
+}
 .bg-black {
   background: #121619;
 }
@@ -9706,7 +9713,7 @@ a {
   background-image: url("../images/post-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 16rem;
+  padding-top: 20rem;
 }
 .main__title {
   color: #fff;
@@ -9723,8 +9730,15 @@ a {
     margin-top: 5rem;
     padding: 0;
   }
+  .main .icono {
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 7rem;
+  }
   .main__title {
-    padding-top: 1rem;
+    padding-top: 3rem;
     padding-bottom: 0rem;
     font-size: 10px;
   }
@@ -9843,8 +9857,17 @@ a {
 @media (max-width: 375px) {
   .photo {
     height: 102%;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     width: auto;
+  }
+
+  .card-body {
+    width: 300px;
+    text-align: left;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-top: 45px;
+    padding-left: 12rem;
   }
 }
 .buttons {
@@ -9938,6 +9961,24 @@ a {
   margin: 0 auto;
   height: 102%;
   width: auto;
+}
+
+@media (max-width: 375px) {
+  .thumbnails {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #d1d1d1;
+    vertical-align: middle;
+    margin: 2rem;
+  }
+  .thumbnails .photo {
+    display: inline;
+    height: 102%;
+    width: auto;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
