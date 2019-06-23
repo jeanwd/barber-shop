@@ -1,0 +1,22 @@
+.bg-black { background:
+   $eerie-black;
+
+}
+
+.navbar-dark  {
+  padding: 15px;
+}
+
+
+
+
+.nav-link{
+  color: $spanish-pink;
+  padding: 0;
+  display: inline;
+  font-weight: $light;
+
+  &__color {
+    color: $fuzzy-wuzzy;
+  }
+}

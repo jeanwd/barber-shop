@@ -1,0 +1,48 @@
+.buttons{
+  padding: .7rem 2rem;
+  color: $white;
+  border-radius:51px 51px 51px 51px;
+  background-color: $nickel;
+  font-family:$roboto;
+  font-size:$medium;
+
+}
+
+.buttons{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 0.8rem;
+  padding: .7rem 2rem;
+  color: $white;
+  border-radius:51px 51px 51px 51px;
+  //*border:3px solid $light-gray;
+  background-color: $nickel;
+  font-family: $roboto;
+  font-size:$medium;
+
+      &:hover {
+      background-color: $platinum;
+      background-color: $platinum;
+      color: $raisin-black;
+    }
+
+}
+
+.buttons2{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 0.8rem;
+  padding: .7rem 2rem;
+  color: $white;
+  border-radius:51px 51px 51px 51px;
+  background-color: $nickel;
+  font-family: $roboto;
+  font-size:$medium;
+
+      &:hover {
+      background-color: $platinum;
+      background-color: $platinum;
+      color: $raisin-black;
+    }
+
+}

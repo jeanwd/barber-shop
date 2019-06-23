@@ -1,0 +1,47 @@
+.main {
+  
+  @extend .img-fluid;
+  background-image: url('../images/post-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+   padding-top: 16rem;
+
+
+
+  &__title {
+   color: $white;
+   font-family: $playfair-display;
+   font-weight: $black-italic;
+   font-size: 40px;
+   text-align: center;
+   font-style: italic;
+
+
+  }
+}
+
+@media (max-width:375px){
+  .main{
+    padding-top: 13rem;
+    margin-top:5rem;
+    padding:0;
+          &__title{
+        padding-top:1rem;
+        padding-bottom:0rem;
+        font-size:10px;
+      }
+  }
+}
+
+
+.icono {
+  font-size: 3rem;
+  color: $white;
+  text-align: center;
+  vertical-align: bottom;
+  padding-top: 12rem;
+}
+
+.icono svg {
+  fill: #ffffff;
+}

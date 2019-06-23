@@ -1,0 +1,46 @@
+.section {
+  margin-top: 3rem;
+  padding: 0;
+  text-align: center;
+  @extend .col-md-8;
+  @extend .col-lg-12;
+  @extend .col-sm-2;
+
+}
+
+.section01 {
+  @extend .section;
+  padding-top: 0rem;
+  padding: 1rem;
+  color: $nickel;
+  vertical-align: middle;
+    &__title02 {
+      font-family:$playfair-display;
+      font-weight:$regular;
+      font-size: $medium;
+      text-align: left;
+      margin-bottom: 2rem;
+    }
+    &__paraf01 {
+      font-family:$roboto;
+      font-weight:$light;
+      font-size: $medium;
+      text-align: left;
+      margin: 3rem 0;
+       line-height: 3;
+
+
+    }
+
+    &__hr.style1{
+  	border-top: 1px solid $light-gray;
+    }
+}
+
+
+.section_pag{
+    background-color:$platinum;
+    margin: 0;
+    padding: 3rem;
+    text-align: center;
+}
